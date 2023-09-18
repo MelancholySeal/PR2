@@ -34,6 +34,6 @@ for i in range(2,35+1):
     sheet1.write(i,3,i)
     sheet1.write(i,4,elapsed/a)
 
-    print(measure1)
-    print(measure2)
+print(measure1)
+print(measure2)
 wb.save("PR2.xls")
